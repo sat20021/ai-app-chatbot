@@ -35,8 +35,6 @@ import { ToastProvider, useToast } from "@/components/ui/ToastNotification";
 import { MOCK_DOCUMENTS } from "@/lib/mock-data";
 import { formatBytes, formatDate } from "@/lib/utils";
 
-export const dynamic = "force-dynamic";
-
 interface PageProps {
   params: Promise<{ id: string }>;
 }
